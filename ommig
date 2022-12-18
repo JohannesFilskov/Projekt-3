@@ -12,27 +12,21 @@
   <div class="container">
   <nav>
     <ul>
-      <li><a href="hjemmeside.html">OM MIG</a></li>
-      <li><a href="portfolio.html">PORTFOLIO</a></li>
-      <li><a href="kontakt.html">KONTAKT</a></li>
+      <li><a href="#">OM MIG</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">KONTAKT</a></li>
     </ul>
   </nav>
 </div>
 
 <style>
-h1 {
-  text-align: left;
-  margin: none;
-  color: white;
-  height: 30px;
-  padding: 50px;
-}
+h1 {text-align: center;}
 </style>
 </header>
 
-<img src="billede1.jpg" alt="Johannes" class="billedestor" style="float:right";>
+<img src="billede1.jpg" alt="Johannes" class="billedestor">
 
-<h1> Johannes Filskov </h1>
+<h1 style="color:white;"> Johannes Filskov </h1>
 
 </body>
 </html>
