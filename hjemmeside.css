@@ -6,6 +6,11 @@ body {
   font-weight: 400;
   }
 
+.billedestor {
+  width: 40%;
+  height: auto;
+  float: right;
+}
 
 .container {
   width: 100%;
@@ -43,74 +48,187 @@ a {
   color: white;
 }
 
+dl {
+display: inline-block;
+text-align: auto;
+margin-left: 70px;
+padding-top: 25px;
+}
+
+dt {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+dd {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
 body {
 background-color: #010101;
 }
 
-.billedestor {
-  display: block;
-    margin-left: auto;
-    width: 50%;
-    max-width: 650px;
-    max-height: auto;
+
+.grid-container {
+  display: grid;
+  gap: 200px;
+  grid-template-areas:
+  'a b'
+  'c d'
+  'e f';
+}
+
+
+.item1 {
+  grid-area: a;
+
+}
+
+.item2 {
+  grid-area: b;
+}
+
+.item3 {
+  grid-area: c;
+}
+
+.item4 {
+  grid-area: d;
+}
+
+.item5 {
+  grid-area: e;
+
+}
+
+.item6 {
+  grid-area: f;
+}
+
+
+.grid-kontakt {
+  display: grid;
+  gap: 200px;
+  grid-template-areas:
+  'a b c';
+}
+
+.kontakt1 {
+  grid-area: a;
+}
+
+.kontakt2 {
+  grid-area: b;
+}
+
+.kontakt3 {
+  grid-area: c;
+}
+
+.kontaktkasse1 {
+  width: 300px;
+  border: 15px solid lightblue;
+  padding: 50px;
+  margin: 20px;
+}
+
+@media (max-width: 600px) {
+
+  p {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    line-height: 100%;
+    letter-spacing: 0.6px;
+    margin-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   h1 {
-  text-align: left;
+    text-align: center;
+    padding: 10px;
+    margin: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+
+  .grid-container {
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+    'a'
+    'b'
+    'c'
+    'd'
+    'e'
+    'f'
+    'g'
+    'h'
+    'i'
+    'j'
+    'k'
+    'l';
+  }
+
+
+  .item1 {
+    grid-area: a;
+
+  }
+
+  .item2 {
+    grid-area: b;
+  }
+
+  .item3 {
+    grid-area: c;
+  }
+
+  .item4 {
+    grid-area: d;
+  }
+
+  .item5 {
+    grid-area: e;
+
+  }
+
+  .item6 {
+    grid-area: f;
+  }
+
+  .item7 {
+    grid-area: g;
+  }
+
+  .item8 {
+    grid-area: h;
+  }
+
+  .item10 {
+    grid-area: j;
+  }
+
+  .item11 {
+    grid-area: k;
+  }
+
+  .item12 {
+    grid-area: l;
+  }
+
 }
-
-.portkasse1 {
-  background-color: white;
-  width: 450px;
-  height: 250px;
-  border: 15px solid #010101;
-  padding: 50px;
-  margin-left: 70px;
-  display: inline-block;
-  }
-
-.portkasse2 {
-  background-color: white;
-  width: 450px;
-  height: 250px;
-  border: 15px solid #010101;
-  padding: 50px;
-  display: inline-flex;
-  }
-
-  .portkasse3 {
-    background-color: white;
-    width: 450px;
-    height: 250px;
-    border: 15px solid #010101;
-    padding: 50px;
-    display: inline-block;
-    }
-
-    .portkasse4 {
-      background-color: white;
-      width: 450px;
-      height: 250px;
-      border: 15px solid #010101;
-      padding: 50px;
-      margin-left: 70px;
-      display: inline-block;
-      }
-
-    .portkasse5 {
-      background-color: white;
-      width: 450px;
-      height: 250px;
-      border: 15px solid #010101;
-      padding: 50px;
-      display: inline-flex;
-      }
-
-      .portkasse6 {
-        background-color: white;
-        width: 450px;
-        height: 250px;
-        border: 15px solid #010101;
-        padding: 50px;
-        display: inline-block;
-        }
