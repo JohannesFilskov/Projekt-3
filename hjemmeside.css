@@ -4,23 +4,53 @@ body {
   background: #1000;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
+  background-color: #010101;
   }
 
-.billedestor {
-  width: 40%;
+  h1 {
+    text-align: center;
+    margin: none;
+    color: white;
+    height: 30px;
+    padding: 50px;
+    }
+
+  h2 {
+    text-align: left;
+    margin: 20px;
+    color: white;
+    padding: 27px;
+  }
+
+  p {
+    text-align: center;
+    color: white;
+  }
+
+
+.forsidebillede {
+  max-width: 150%;
   height: auto;
   float: right;
 }
 
-.container {
+.portfoliobillede {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfoliovideo {
+width: 100%;
+height: auto;
+}
+
+.navbar {
   width: 100%;
   margin: 0 auto;
   height: 65px;
-}
-
-header {
   background: lightblue;
 }
+
 
 ul {
  margin: 0px;
@@ -46,29 +76,6 @@ a {
  a:hover {
   background-color: #000;
   color: white;
-}
-
-dl {
-display: inline-block;
-text-align: auto;
-margin-left: 70px;
-padding-top: 25px;
-}
-
-dt {
-  color: white;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-dd {
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-body {
-background-color: #010101;
 }
 
 
@@ -108,34 +115,43 @@ background-color: #010101;
   grid-area: f;
 }
 
-
-.grid-kontakt {
-  display: grid;
-  gap: 200px;
-  grid-template-areas:
-  'a b c';
+.kontaktbillede {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50px;
+height: 50px;
 }
-
-.kontakt1 {
-  grid-area: a;
-}
-
-.kontakt2 {
-  grid-area: b;
-}
-
-.kontakt3 {
-  grid-area: c;
-}
-
-.kontaktkasse1 {
-  width: 300px;
-  border: 15px solid lightblue;
-  padding: 50px;
-  margin: 20px;
-}
+  }
 
 @media (max-width: 600px) {
+
+  .portfoliobillede {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .portfoliovideo {
+  width: 35%;
+  height: auto;
+  }
+
+  .navbar {
+    width: 50%;
+    margin: 0 auto;
+    height: 30px;
+    background: lightblue;
+  }
+
+  a {
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2px;
+    float: none;
+    display: block;
+    text-align: left;
+  }
 
   p {
     font-size: 20px;
@@ -152,7 +168,6 @@ background-color: #010101;
     text-align: center;
     padding: 10px;
     margin: 5%;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
   }
@@ -161,7 +176,6 @@ background-color: #010101;
     text-align: center;
     padding: 10px;
     margin: 5%;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
   }
