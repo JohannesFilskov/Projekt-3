@@ -1,10 +1,8 @@
 
 body {
-  margin: 0;
-  background: #1000;
   font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
   background-color: #010101;
+  margin: 0;
   }
 
   h1 {
@@ -29,14 +27,17 @@ body {
 
 
 .forsidebillede {
-  max-width: 150%;
+  max-width: 100%;
   height: auto;
   float: right;
+  text-align: center;
 }
 
 .portfoliobillede {
-  max-width: 100%;
-  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
 }
 
 .portfoliovideo {
@@ -44,9 +45,14 @@ width: 100%;
 height: auto;
 }
 
-.navbar {
+img {
+      display: block;
+      margin: 0 auto;
+    }
+
+nav {
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
   height: 65px;
   background: lightblue;
 }
@@ -122,127 +128,124 @@ margin-right: auto;
 width: 50px;
 height: 50px;
 }
-  }
 
 @media (max-width: 600px) {
-
   .portfoliobillede {
-    max-width: 100%;
-    height: auto;
-  }
+   max-width: 100%;
+   height: auto;
+ }
 
-  .portfoliovideo {
-  width: 35%;
-  height: auto;
-  }
+ .portfoliovideo {
+ width:100%;
+ height: auto;
+ }
 
-  .navbar {
-    width: 50%;
-    margin: 0 auto;
-    height: 30px;
-    background: lightblue;
-  }
+ .nav {
+   width: 100%;
+   margin: 0;
+   height: 30px;
+   background: lightblue;
+ }
 
-  a {
-    color: #222;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 2px;
-    float: none;
-    display: block;
-    text-align: left;
-  }
+ a {
+   color: #222;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 10px;
+   display: block;
+   text-align: left;
+ }
 
-  p {
-    font-size: 20px;
-    text-align: center;
-    margin: auto;
-    line-height: 100%;
-    letter-spacing: 0.6px;
-    margin-top: 30px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+ p {
+   font-size: 20px;
+   text-align: center;
+   margin: auto;
+   line-height: 100%;
+   letter-spacing: 0.6px;
+   margin-top: 30px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+ }
 
-  h1 {
-    text-align: center;
-    padding: 10px;
-    margin: 5%;
-    font-weight: bold;
-    color: white;
-  }
+ h1 {
+   text-align: center;
+   padding: 10px;
+   margin: 5%;
+   font-weight: bold;
+   color: white;
+ }
 
-  h2 {
-    text-align: center;
-    padding: 10px;
-    margin: 5%;
-    font-weight: bold;
-    color: white;
-  }
+ h2 {
+   text-align: center;
+   padding: 10px;
+   margin: 5%;
+   font-weight: bold;
+   color: white;
+ }
 
-  .grid-container {
-    display: grid;
-    gap: 30px;
-    grid-template-areas:
-    'a'
-    'b'
-    'c'
-    'd'
-    'e'
-    'f'
-    'g'
-    'h'
-    'i'
-    'j'
-    'k'
-    'l';
-  }
+ .grid-container {
+   display: grid;
+   gap: 30px;
+   grid-template-areas:
+   'a'
+   'b'
+   'c'
+   'd'
+   'e'
+   'f'
+   'g'
+   'h'
+   'i'
+   'j'
+   'k'
+   'l';
+ }
 
 
-  .item1 {
-    grid-area: a;
+ .item1 {
+   grid-area: a;
 
-  }
+ }
 
-  .item2 {
-    grid-area: b;
-  }
+ .item2 {
+   grid-area: b;
+ }
 
-  .item3 {
-    grid-area: c;
-  }
+ .item3 {
+   grid-area: c;
+ }
 
-  .item4 {
-    grid-area: d;
-  }
+ .item4 {
+   grid-area: d;
+ }
 
-  .item5 {
-    grid-area: e;
+ .item5 {
+   grid-area: e;
 
-  }
+ }
 
-  .item6 {
-    grid-area: f;
-  }
+ .item6 {
+   grid-area: f;
+ }
 
-  .item7 {
-    grid-area: g;
-  }
+ .item7 {
+   grid-area: g;
+ }
 
-  .item8 {
-    grid-area: h;
-  }
+ .item8 {
+   grid-area: h;
+ }
 
-  .item10 {
-    grid-area: j;
-  }
+ .item10 {
+   grid-area: j;
+ }
 
-  .item11 {
-    grid-area: k;
-  }
+ .item11 {
+   grid-area: k;
+ }
 
-  .item12 {
-    grid-area: l;
-  }
+ .item12 {
+   grid-area: l;
+ }
 
 }
